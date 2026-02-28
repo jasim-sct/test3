@@ -1,23 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="en" style="font-size: 16px;">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="font.css" />
+</head>
+
+<body class="main-container">
+
+
+  <div class="card-container">
+    <div class="card-container-header">
+      <div class="card-container-header-title">
+        <img class="card-container-header-title-logo" src="/logo.png" alt="">
+        <div class="card-container-header-title-text">
+          SolutionChamps Hospital
+        </div>
+      </div>
+      <div class="card-container-header-more-icon">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+          <g>
+            <path d="M30,16c4.411,0,8-3.589,8-8s-3.589-8-8-8s-8,3.589-8,8S25.589,16,30,16z" />
+            <path d="M30,44c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,44,30,44z" />
+            <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+
+    <div class="card-image-container">
+      <img src="/hospital.png" alt="" >
+      <div class="card-image-badge">Active</div>
+    </div>
+
+
+    <div class="card-content-area">
+      <div class="card-content-area-title">
+        International Clients & Leads Western Areas
+      </div>
+      <div class="card-content-area-list">
+        <div class="card-content-area-list-row">
+          <img src="/persons.svg" alt="">
+          <div>1200 Doctors</div>
+        </div>
+        <div class="card-content-area-list-row">
+          <img src="/view_week.svg" alt="">
+          <div>50 Departments</div>
+        </div>
+      </div>
+
+      <div class="card-content-action-section">
+        <img src="/likes.png" class="like-image" alt="">
+
+        <div class="space-bar-full-width">
+
+          <div class="likes-bar" style="width: 25%;"></div>
+          <div class="dislikes-bar" style="width: 75%;"></div>
+        </div>
+        <img src="/likes.png" class="dislike-image" alt="">
+        <!-- <img src="/likes.png" alt=""> -->
+      </div>
+    </div>
+
+
+    <div class="card-footer-area">
+      <div class="card-footer-area-text">Updated by: Shanth Babu S</div>
+      <div class="card-footer-area-text">Updated on: 20 Dec, 2023</div>
+    </div>
+
+  </div>
+</body>
+
 </html>
